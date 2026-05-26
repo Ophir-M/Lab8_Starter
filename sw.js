@@ -3,13 +3,13 @@
 
 const CACHE_NAME = 'lab-8-starter';
 const RECIPE_URLS = [
-  '/recipes/1_50-thanksgiving-side-dishes.json',
-  '/recipes/2_roasting-turkey-breast-with-stuffing.json',
-  '/recipes/3_moms-cornbread-stuffing.json',
-  '/recipes/4_50-indulgent-thanksgiving-side-dishes-for-any-holiday-gathering.json',
-  '/recipes/5_healthy-thanksgiving-recipe-crockpot-turkey-breast.json',
-  '/recipes/6_one-pot-thanksgiving-dinner.json'
-]
+  './recipes/1_50-thanksgiving-side-dishes.json',
+  './recipes/2_roasting-turkey-breast-with-stuffing.json',
+  './recipes/3_moms-cornbread-stuffing.json',
+  './recipes/4_50-indulgent-thanksgiving-side-dishes-for-any-holiday-gathering.json',
+  './recipes/5_healthy-thanksgiving-recipe-crockpot-turkey-breast.json',
+  './recipes/6_one-pot-thanksgiving-dinner.json'
+];
 // Installs the service worker. Feed it some initial URLs to cache
 self.addEventListener('install', function (event) {
   event.waitUntil(
